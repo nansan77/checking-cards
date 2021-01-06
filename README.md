@@ -7,61 +7,71 @@
 На тестирование затрачено: 9 часа
 
 В результате тестирования выявлены следующие дефекты: 
-Смотреть Issues
+* [Баг репорт: функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #1](https://github.com/nansan77/checking-cards/issues/1)
 
-В процессе тестирования использовались следующие артефакт -код в Idea  (IntelliJ IDEA)
+* [Баг репорт: функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #2](https://github.com/nansan77/checking-cards/issues/2)
+
+* [Баг репорт: функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #3](https://github.com/nansan77/checking-cards/issues/3)
+
+В процессе тестирования использовались следующие артефакт:
+* код в Idea  (IntelliJ IDEA)
 
 В качестве тестовых данных использовались 
-Номера банковских карт. платежных систем VISA, Discover, MasterCard, Diners Club - North America, 
-Maestro, American Express (AMEX)
+Номера банковских карт c Ожидаемым результатом
 
-Ожидаемый результат 
+* платежных систем VISA, 
 
-Работоспособность функциональности валидации номеров банковских карт.
+* VISA с № 4485962178806888 ОК
 
-VISA с № 4485962178806888 ОК
+* VISA с № 4929891556456152 ОК
 
-VISA с № 4929891556456152 ОК
+* VISA с № 4024007115784061215 FATl
 
-VISA с № 4024007115784061215 FATl
+* платежных систем Discover
 
-Discover с № 6011990397628047 ОК
+* Discover с № 6011990397628047 ОК
 
-Discover с № 6011431220351176 ОК
+* Discover с № 6011431220351176 ОК
 
-Discover с № 6011605044675553653 FATl
+* Discover с № 6011605044675553653 FATl
 
-MasterCard с № 5247338995574791 ОК
+* платежных систем MasterCard
 
-MasterCard с № 5101996418495822 ОК
+* MasterCard с № 5247338995574791 ОК
 
-MasterCard с № 2221005830888630 FATl
+* MasterCard с № 5101996418495822 ОК
 
-Diners Club - North America: № 5580989542252961 ОК 
+* MasterCard с № 2221005830888630 FATl
 
-Diners Club - North America: № 5408108166415347 ОК
+* платежных систем Diners Club - North America:
 
-Diners Club - North America: № 5568356565262762 ОК
+* Diners Club - North America: № 5580989542252961 ОК 
 
-Maestro с № 6762552687760574 ОК
+* Diners Club - North America: № 5408108166415347 ОК
 
-Maestro с № 6304542832078266 ОК
+* Diners Club - North America: № 5568356565262762 ОК
+* платежных систем Maestro
 
-Maestro с № 6761668531677300 ОК
+* Maestro с № 6762552687760574 ОК
 
-American Express (AMEX) с № 374166510238469 ОК
+* Maestro с № 6304542832078266 ОК
 
-American Express (AMEX) с № 344505283643024 ОК
+* Maestro с № 6761668531677300 ОК
 
-American Express (AMEX) с № 374771740382522 ОК
+* платежных систем American Express (AMEX)
 
+* American Express (AMEX) с № 374166510238469 ОК
+
+* American Express (AMEX) с № 344505283643024 ОК
+
+* American Express (AMEX) с № 374771740382522 ОК
 
 Тестирование производилось в следующем окружении:
 
-IdeaPad-L340
+* IdeaPad-L340
 
-Windows 10 pro 64 bit
+* Windows 10 pro 64 bit
 
-IntelliJ IDEA
+* IntelliJ IDEA
 
-версия Java 11
+* версия Java 11
