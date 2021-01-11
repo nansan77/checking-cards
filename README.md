@@ -2,22 +2,24 @@
 
  20.12.2020 -23.12.2020
 
-Было проведено функциональное тестирование 
+Было проведено функциональное тестирование приложения Credit Card Number Validator
 
 На тестирование затрачено: 9 часа
 
 В результате тестирования выявлены следующие дефекты: 
-* [Баг репорт: функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #1](https://github.com/nansan77/checking-cards/issues/1)
+* [функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #1](https://github.com/nansan77/checking-cards/issues/1)
 
-* [Баг репорт: функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #2](https://github.com/nansan77/checking-cards/issues/2)
+* [функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #2](https://github.com/nansan77/checking-cards/issues/2)
 
-* [Баг репорт: функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #3](https://github.com/nansan77/checking-cards/issues/3)
+* [функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #3](https://github.com/nansan77/checking-cards/issues/3)
+
+Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакт:
 * код в Idea  (IntelliJ IDEA)
 
 В качестве тестовых данных использовались 
-Номера банковских карт c Ожидаемым результатом
+* [Номера банковских карт](https://www.freeformatter.com/credit-card-number-generator-validator.html) c Ожидаемым результатом
 
 * платежных систем VISA, 
 
@@ -56,7 +58,15 @@
 
 * Maestro с № 6304542832078266 ОК
 
-* Maestro с № 6761668531677300 ОК
+* Maestro с № 676166853167700 ОК3
+
+* платежных систем American Express (AMEX)
+
+* American Express (AMEX) с № 374166510238469 ОК
+
+* American Express (AMEX) с № 344505283643024 ОК
+
+* American Express (AMEX) с № 374771740382522 ОК
 
 * платежных систем American Express (AMEX)
 
