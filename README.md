@@ -9,9 +9,7 @@
 В результате тестирования выявлены следующие дефекты: 
 * [функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #1](https://github.com/nansan77/checking-cards/issues/1)
 
-* [функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #2](https://github.com/nansan77/checking-cards/issues/2)
 
-* [функциональность валидации номера банковской карты, не определяет, карты платёжной системы American Express (AMEX) #3](https://github.com/nansan77/checking-cards/issues/3)
 
 Описание процесса тестирования
 
