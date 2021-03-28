@@ -1,4 +1,4 @@
- Отчёт о тестировании " функциональность валидации номера банковской карты."
+ #Отчёт о тестировании  функциональность валидации номера банковской карты.
 
  20.12.2020 -23.12.2020
 
@@ -17,7 +17,9 @@
 * код в Idea  (IntelliJ IDEA)
 
 В качестве тестовых данных использовались 
-* [Номера банковских карт](https://www.freeformatter.com/credit-card-number-generator-validator.html) c Ожидаемым результатом
+* [Номера банковских карт](https://www.freeformatter.com/credit-card-number-generator-validator.html) 
+
+ Ожидаемым результатом
 
 
 * платежных систем American Express (AMEX)
@@ -27,6 +29,14 @@
 * American Express (AMEX) с № 344505283643024 ОК
 
 * American Express (AMEX) с № 374771740382522 ОК
+
+Фактический результат:
+
+* American Express (AMEX) с № 374166510238469 FATL
+
+* American Express (AMEX) с № 344505283643024 FATL
+
+* American Express (AMEX) с № 374771740382522 FATL
 
 Тестирование производилось в следующем окружении:
 
